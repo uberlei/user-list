@@ -1,7 +1,7 @@
 @import 'tailwindcss';
 
-.container {
-  @apply min-h-screen flex items-center justify-center p-4;
+.wrapper {
+  @apply flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4;
 }
 
 .card {
