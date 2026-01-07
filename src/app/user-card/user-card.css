@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+
+.user-card {
+  @apply flex items-center p-4 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 gap-4 max-w-md mb-3;
+}
+
+.user-avatar {
+  @apply shrink-0 w-15 h-15 bg-blue-500 rounded-full flex items-center justify-center text-white;
+}
+
+.user-icon {
+  @apply w-15 h-15;
+}
+
+.user-info {
+  @apply flex flex-col gap-1 flex-1;
+}
+
+.user-name {
+  @apply text-lg font-semibold text-gray-900;
+}
+
+.user-email {
+  @apply text-sm text-gray-600;
+}
+
+.user-role {
+  @apply text-sm text-gray-500 italic;
+}

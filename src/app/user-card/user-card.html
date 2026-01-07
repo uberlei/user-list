@@ -1,14 +1,10 @@
-<div
-    class="flex items-center p-4 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 gap-4 max-w-md mb-3">
-    <div class="shrink-0 w-15 h-15 bg-blue-500 rounded-full flex items-center justify-center text-white">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-9 h-9">
-            <path
-                d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-        </svg>
+<div class="user-card">
+    <div class="user-avatar">
+        <ng-icon name="matAccountCircle" class="user-icon"></ng-icon>
     </div>
-    <div class="flex flex-col gap-1 flex-1">
-        <div class="text-lg font-semibold text-gray-900">{{ name }}</div>
-        <div class="text-sm text-gray-600">{{ email }}</div>
-        <div class="text-sm text-gray-500 italic">{{ role }}</div>
+    <div class="user-info">
+        <div class="user-name">{{ name }}</div>
+        <div class="user-email">{{ email }}</div>
+        <div class="user-role">{{ role }}</div>
     </div>
 </div>

@@ -1,8 +1,9 @@
 import { Component, Input } from '@angular/core';
+import { NgIconComponent } from '@ng-icons/core';
 
 @Component({
   selector: 'app-user-card',
-  imports: [],
+  imports: [NgIconComponent],
   templateUrl: './user-card.html',
   styleUrl: './user-card.css',
 })
