@@ -1,0 +1,41 @@
+@import 'tailwindcss';
+
+.container {
+  @apply min-h-screen flex items-center justify-center p-4;
+}
+
+.card {
+  @apply bg-white rounded-2xl shadow-2xl p-8 w-full max-w-md;
+}
+
+.title {
+  @apply text-3xl font-bold text-gray-800 mb-8 text-center;
+}
+
+.content {
+  @apply space-y-6;
+}
+
+.search-wrapper {
+  @apply relative;
+}
+
+.search-icon {
+  @apply absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none;
+}
+
+.input {
+  @apply w-full pl-4 pr-10 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.input-error {
+  @apply w-full pl-4 pr-10 py-3 border-2 border-red-300 rounded-lg focus:outline-none focus:border-red-400;
+}
+
+.error-message {
+  @apply mt-1.5 text-xs text-gray-500 flex items-center gap-1;
+}
+
+.empty-state {
+  @apply text-center text-gray-500 italic;
+}
